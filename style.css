@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.all-components {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color:#f4f0eb;
+    height: 1000vh;
+    border: 2px solid #ccc;
+    margin-top: 50px;
+}
+
+.evgeniya-container {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+    max-width: 1040px;
+}
+
+.nav__link {
+    color: black;
+    font-size: 18px;
+    margin-left: 34px;
+    text-decoration: none;
+}
+.nav__link:hover {
+    color:lightcoral;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.evgeniya-logo {
+    width: 260px;
+}
+
+.evgeniya-image {
+    max-width: 700px;
+    margin-top: 20px;
+
+}
+
+.order {
+    margin-top: 20px;
+
+}
+
+.order__link {
+    background-color:rgba(238, 200, 200, 0.498);
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* margin-top: ; */
+    padding-bottom: 40px;
+    color: rgb(171, 171, 171);
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 250px;
+}
+
+.order__link:hover {
+    color: black;
+}
+
+.text-block {
+    border: 1px solid black;
+    padding: 25px;
+    background-color: #fff;
+}
+
+
+.aboutme-text {
+    font-size: 17px;
+    border: 1px solid black;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fff;
+    max-width: 250px;
+    margin-left: 50px;
+    margin-top: 65px;
+}
+
+.uniqfont {
+    margin-top: -18px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+
